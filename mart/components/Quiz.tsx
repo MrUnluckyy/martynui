@@ -115,9 +115,9 @@ const Quiz = () => {
       })
       .catch((err) => {
         toast({
-          title: "UUUUPPPPSSS!",
-          description: "Kažką pridirbau",
-          status: "error",
+          title: "Tikiuosi, kad pavyko!",
+          description: "Jeigu ne, rašyk Justui.",
+          status: "info",
           duration: 3000,
           isClosable: true,
         });
